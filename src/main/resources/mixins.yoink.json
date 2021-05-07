@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "cat.yoink.dream.mixin.mixins.mixin",
+  "refmap": "mixins.yoink.refmap.json",
+  "mixins": [
+    "MinecraftMixin",
+    "NetworkManagerMixin",
+    "TimerMixin",
+    "CPacketPlayerMixin",
+    "RenderManagerMixin",
+    "ItemRendererMixin",
+    "MovementInputFromOptionsMixin",
+    "BlockMixin",
+    "EntityRendererMixin",
+    "PlayerControllerMPMixin",
+    "EntityPlayerSPMixin",
+    "RenderLivingBaseMixin",
+    "ModelPlayerMixin",
+    "MixinLayerArmorBase",
+    "MixinGuiScreen",
+    "MixinRenderPlayer",
+    "MixinWorld",
+    "MixinEntity",
+    "MixinEntityBoat"
+  ]
+}
